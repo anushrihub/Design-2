@@ -46,7 +46,6 @@ class MyQueue:
 
 
 # Your MyQueue object will be instantiated and called as such:
-
 # obj = MyQueue()
 # obj.push(2)
 # obj.push(3)
