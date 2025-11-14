@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/design-hashmap/
 
 
-# we are handling dummy -1, -1 for every used bucket. because while remove ooperation link could discrupt so dummy will be constant
+# creating a hashmap to store key, value pair. get_hash method is used to find the bucket for the key and then created a get_prev method to find out the previous pointer of the key which about to insert or remove. Then connecting that pointer with new pair while inserting or next pair after the removed pair 
 
 # creating a class MyHashMap
 class MyHashMap:

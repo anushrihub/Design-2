@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/implement-queue-using-stacks/
 
-# As in we have to implement FIFO approach we can not use same stack for all operationss. Hence, created two stacks. When we have to apply pop and peek we'll update the second stack and for push we'll update first stack. For checking empty we need to use both stacks
+# As we have to implement FIFO approach we can not use same stack for all operationss. Hence, created two stacks. When we have to apply pop and peek we'll update the second stack and for push we'll update first stack. For checking empty we need to use both stacks
 
 class MyQueue:
 
