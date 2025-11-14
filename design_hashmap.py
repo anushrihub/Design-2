@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/design-hashmap/
 
+# why we created Nodes class inside the Hashmap- We can do either way. we can create a node class outside
 # we are handling dummy -1, -1 for every used bucket. because while remove ooperation link could discrupt so dummy will be constant
 
 # self.storage is your array of buckets. Each bucket is a linked list.
